@@ -1,0 +1,432 @@
+body
+{
+    background: #060a0b;
+    overflow-x: hidden;
+}
+
+/* NAVBAR */
+.logo-bar
+{
+    padding-top: 0.5em;
+}
+.img-logo
+{
+    height: 60px;
+    width: 300px;
+    background: url("img/logo.png") no-repeat;
+    display: block;
+    background-size: contain;
+    color: transparent;
+}
+nav.navbar-transparent
+{
+    padding-bottom: 40px;
+    background: black;
+    border: none;
+}
+.navbar-brand
+{
+    padding: 5px 15px;
+}
+
+/* CARROSEL */
+.carousel
+{
+    width: 1000px;
+    border: 5px solid orange;
+    margin-top: 6.5em;
+}
+.glyphicon-menu-right
+{
+    padding-top: 5.5em;
+}
+.glyphicon-menu-left
+{
+    padding-top: 5.5em;
+}
+
+/* ACORDEON */
+
+.btn-customizado{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    text-transform: uppercase;
+    font-family: 'Acme', sans-serif;
+    transition: background 0.4, color 0.4;
+}
+.btn-branco{
+    border: 2px solid #fff;
+}
+.btn-branco:hover{
+    opacity: 0.7;
+}
+.btn-branco:link{
+    color: #fff;
+}
+.btn-branco:active{
+    color: #fff;
+}
+.btn-branco:visited{
+    color: #fff;
+}
+.player{
+    display: flex;
+    justify-content: center;
+}
+.font-collapse{
+    font-size: 35px;
+    padding-top: 10px;
+}
+/* MODAL */
+.modal-title
+{
+    font-size: 30px;
+    font-family: 'Yatra One', cursive;
+    font-weight: bold;
+    color: black;
+}
+.form-group
+{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    color: black;
+}
+.btn-custom-modal
+{
+    color: #000;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    text-transform: uppercase;
+}
+.btn-preto
+{
+    border: 2px solid #000;
+}
+.btn-branco:hover
+{
+    background-color: black;
+    color: #FFF;
+}
+
+/* QUADRO */
+.quadro h3
+{
+    font-family: 'Acme', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: #fff;
+}
+.quadro p
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    color: #fff;
+    margin-top: 2em;
+}
+
+/* QUEM SOMOS */
+.quemsomos
+{
+    color: #fff;
+}
+.somos h3
+{
+    font-family: 'Acme', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+.somos p
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    margin-top: 1.5em;
+}
+
+/* PROJETOS */
+.projetos
+{
+    color: #fff;
+}
+.projetos h3
+{
+    font-family: 'Acme', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 1.5em;
+}
+.modal-body
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: black;
+}
+.btn-custom
+{
+    color: #060a0b;
+}
+.pastores
+{
+    text-align: center;
+}
+.casal
+{
+    border: 5px solid orange;
+}
+.faleconosco h3
+{
+    text-align: left;
+}
+
+/* REDE SOCIAL */
+
+.facebook:hover
+{
+    opacity: 0.7;
+}
+.facebook a
+{
+    text-decoration: none;
+}
+.instagram a
+{
+    text-decoration: none;
+}
+.instagram:hover
+{
+    opacity: 0.7;
+}
+.falecom
+{
+    text-align: center;
+}
+#facebook
+{
+    float: right;
+}
+
+/* FOOTER */
+
+#footer
+{
+    background: #000;
+}
+footer
+{
+    padding-bottom: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+}
+.img-rodape
+{
+    padding-top: 1em;
+}
+.copy-rodape
+{
+    color: #fff;
+    float: right;
+    padding-top: 1.5em;
+}
+
+/* CRÉDITOS */
+
+.desenv
+{
+    color: #fff;
+}
+.img-desenv
+{
+    margin-bottom: 1em;
+    margin-left: 5px;
+}
+
+/* =========== MEDIA QUERIES =========== */
+/* xs < 768 */
+@media screen and (max-width: 767px)
+{
+    .logo-bar{
+        padding-left: 1em;
+    }
+    .carousel{
+        margin-top: 7em;
+    }
+    #sliderhome{
+        padding-left: 1em;
+    }
+    .glyphicon-menu-right{
+        padding-top: 65%;
+    }
+    .glyphicon-menu-left{
+        padding-top: 65%;
+    }
+    .font-collapse{
+        font-size: 18px;
+        padding-top: 10px;
+    }
+    .btn-custom{
+        font-size: 20px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .quadro h3{
+        font-size: 30px;
+    }
+    .quadro p{
+        font-size: 25px;
+    }
+    .somos h3{
+        font-size: 30px;
+    }
+    .somos p{
+        font-size: 20px;
+    }
+    .projetos h3{
+        font-size: 30px;
+    }
+    .endereco{
+        text-align: left;
+    }
+    .falecom{
+        padding-top: 1em;
+    }
+    .img-thumbnail{
+        align-items: center;
+        width: 200px;
+        height: 200px;
+    }
+    .copy-rodape{
+        float: left;
+    }
+    .creditos{
+        float: left;
+    }
+
+}
+
+/* sm */
+@media screen and (min-width: 767px)
+{
+    .logo-bar{
+        padding-left: 1em;
+    }
+    .glyphicon-menu-right{
+        padding-top: 4em;
+    }
+    .glyphicon-menu-left{
+        padding-top: 4em;
+    }
+    .btn-custom{
+        font-size: 25px;
+    }
+    .somos h3{
+        font-size: 35px;
+    }
+    .somos p{
+        font-size: 25px;
+    }
+    .endereco{
+        text-align: left;
+    }
+    .img-thumbnail{
+        width: 250px;
+        height: 250px;
+    }
+    .quadro h3{
+        font-size: 35px;
+    }
+    .quadro p{
+        font-size: 25px;
+    }
+    .falecom{
+        padding-top: 1em;
+    }
+    .copy-rodape{
+        float: left;
+    }
+    .creditos{
+        float: left;
+    }
+}
+
+/* md */
+@media screen and (min-width: 992px)
+{
+    .logo-bar{
+        padding-top: 0.5em;
+        padding-left: 27.5em;
+    }
+    .glyphicon-menu-right{
+        padding-top: 5.5em;
+    }
+    
+    .glyphicon-menu-left{
+        padding-top: 5.5em;
+    }
+    .btn-custom{
+        font-size: 30px;
+    }
+    .copy-rodape{
+        float: right;
+    }
+    .endereco{
+        text-align: right;
+    }
+    .img-thumbnail{
+        align-items: center;
+        width: 300px;
+        height: 300px;
+    }
+    .redes{
+        padding-top: 5em;
+    }
+    .falecom{
+        padding-top: 0em;
+    }
+    .creditos{
+        float: none;
+    }
+}
+
+/* lg */
+@media screen and (min-width: 1200px)
+{
+    .logo-bar{
+        padding-left: 34em;
+    }
+    .glyphicon-menu-right{
+        padding-top: 6em;
+    }
+    
+    .glyphicon-menu-left{
+        padding-top: 6em;
+    }
+    .btn-custom{
+        font-size: 40px;
+    }
+    .copy-rodape{
+        float: right;
+    }
+    #sliderhome{
+        padding-left: 5em;
+    }
+    .endereco{
+        text-align: right;
+    }
+    .img-thumbnail{
+        align-items: center;
+        width: 300px;
+        height: 300px;
+    }
+    .redes{
+        padding-top: 7em;
+    }
+    .falecom{
+        padding-top: 0em;
+    }
+    .creditos{
+        float: none;
+    }
+}
